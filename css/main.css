@@ -464,6 +464,7 @@ input.input100 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-decoration: none;
 }
 
 .login100-form-btn {
@@ -479,6 +480,7 @@ input.input100 {
   height: 50px;
   border-radius: 10px;
   background: #6675df;
+  text-decoration: none;
 
   font-family: Montserrat-Bold;
   font-size: 12px;
