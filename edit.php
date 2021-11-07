@@ -62,7 +62,6 @@
                                 <div class="col-12 form-group">
                                     <center>
                                     <input type="submit" class="btn btn-secondary p-2 mb-1 bg-success text-white" name="submit" value="Update">
-                                
                                     </div>
                             </form>
                         </div>
