@@ -10,10 +10,10 @@
     <title>Login</title>
     <style>
         body{
-            background: #262626;
+            background: whitesmoke;
         }
         .header{
-            background: #262626;
+            background: whitesmoke;
         }
         h1{
             font-family: sans-serif;
