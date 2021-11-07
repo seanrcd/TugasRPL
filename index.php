@@ -43,7 +43,7 @@
             <div class="container clearfix hed">
             </div>
         </section>
-        <div class="header>
+        <div class="header">
                 <h1>Insert Data</h1>
         </div>
         <section id="content">
@@ -66,7 +66,6 @@
                                         <th scope="col">Name</th>
                                         <th scope="col">Email</th>
                                         <th scope="col">Phone</th>
-                                        <th scope="col">Subject</th>
                                         <th scope="col">Message</th>
                                         <th scope="col">Created on</th>
                                         <th scope="col">Update on</th>
@@ -86,7 +85,6 @@
                                             <td><?php echo $row['name']; ?></td>
                                             <td><?php echo $row['email']; ?></td>
                                             <td><?php echo $row['phone']; ?></td>
-                                            <td><?php echo $row['subject']; ?></td>
                                             <td><?php echo $row['message']; ?></td>
                                             <td><?php echo $row['created']; ?></td>
                                             <td><?php echo $row['updated']; ?></td>
