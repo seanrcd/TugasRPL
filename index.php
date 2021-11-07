@@ -47,7 +47,9 @@
             </div>
         </section>
         <div class="header">
+            <center>
                 <h1>Insert Data</h1>
+            </center>
         </div>
         <section id="content">
             <div class="content-wrap">
