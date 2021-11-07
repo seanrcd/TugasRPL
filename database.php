@@ -3,7 +3,7 @@
         public $que;
         private $servername='localhost';
         private $username='root';
-        private $password='root';
+        private $password='';
         private $dbname='oop_test';
         private $result=array();
         private $mysqli='';
