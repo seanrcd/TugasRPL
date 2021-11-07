@@ -6,6 +6,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <title>Edit</title>
     <style>
+        .header{
+            background: #262626;
+        }
+        h1{
+            font-family: sans-serif;
+            text-transform: uppercase;
+            background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-stroke: 2px black;
+        }
         .hed{
             background: #ccc;
             color: blue;
@@ -49,8 +60,9 @@
                                 <input type="hidden" name="id" value="<?php echo $id; ?>">
                                 <?php include 'form.php'; ?>
                                 <div class="col-12 form-group">
-                                    <input type="submit" class="btn btn-dark" name="submit" value="Update">
-                                </div>
+                                    <center>
+                                    <input type="submit" class="btn btn-secondary p-2 mb-1 bg-success text-white" name="submit" value="Update">
+                                    </div>
                             </form>
                         </div>
                     </div>
