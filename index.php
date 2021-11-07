@@ -9,6 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Login</title>
     <style>
+        .header{
+            background: #262626;
+        }
+        h1{
+            font-family: sans-serif;
+            text-transform: uppercase;
+            background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-stroke: 2px black;
+        }
         .hed{
             background: #ccc;
             color: black;
@@ -32,7 +43,7 @@
             <div class="container clearfix hed">
             </div>
         </section>
-        <div class="col-md-12 hed">
+        <div class="header>
                 <h1>Insert Data</h1>
         </div>
         <section id="content">
