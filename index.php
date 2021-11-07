@@ -66,9 +66,6 @@
                                         <th scope="col">Name</th>
                                         <th scope="col">Email</th>
                                         <th scope="col">Phone</th>
-                                        <th scope="col">Message</th>
-                                        <th scope="col">Created on</th>
-                                        <th scope="col">Update on</th>
                                         <th scope="col" colspan="3">Action</th>
                                     </tr>
                                 </thead>
@@ -86,8 +83,6 @@
                                             <td><?php echo $row['email']; ?></td>
                                             <td><?php echo $row['phone']; ?></td>
                                             <td><?php echo $row['message']; ?></td>
-                                            <td><?php echo $row['created']; ?></td>
-                                            <td><?php echo $row['updated']; ?></td>
                                             <td>
                                                 <a href="view.php?id=<?php echo $row['id']; ?>" type="button" class="btn btn-success btn-sm">View</a>
                                             </td>
