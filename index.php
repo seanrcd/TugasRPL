@@ -13,7 +13,6 @@
             background: #262626;
         }
         .header{
-            ali
             background: #262626;
         }
         h1{
