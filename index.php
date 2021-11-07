@@ -48,9 +48,9 @@
                             </form>
                         </div>
                         <div class="col-md-12 p-0">
-                            <table class="table table-dark">
+                            <table class="table table-warning">
                                 <thead>
-                                    <tr class="bg-info">
+                                    <tr>
                                         <th scope="col">Id</th>
                                         <th scope="col">Name</th>
                                         <th scope="col">Email</th>
