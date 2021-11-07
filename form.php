@@ -12,10 +12,6 @@
     <input type="text" name="phone" value="<?php if(isset($row)) { echo $row['phone']; } ?>" class="form-control" / required>
 </div>
 <div class="col-md-12 col-sm-12 form-group">
-    <label for="register-form-name">Subject:</label>
-    <input type="text" name="subject" value="<?php if(isset($row)) { echo $row['subject']; } ?>" class="form-control" / required>
-</div>
-<div class="col-md-12 col-sm-12 form-group">
     <label for="register-form-name">Message:</label>
     <textarea class="form-control" name="message" placeholder="Message..."><?php if(isset($row)) { echo $row['message']; } ?></textarea>
 </div>

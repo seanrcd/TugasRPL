@@ -68,10 +68,6 @@
                                     <th>Phone</th>  
                                     <td><?php echo $row['phone']; ?></td>
                                 </tr> 
-                                <tr>
-                                    <th>Subject</th>
-                                    <td><?php echo $row['subject']; ?></td>
-                                </tr> 
                                 <tr> 
                                     <th>Message</th>
                                     <td><?php echo $row['message']; ?></td>

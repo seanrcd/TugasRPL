@@ -9,6 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Login</title>
     <style>
+        .header{
+            background: #262626;
+        }
+        h1{
+            font-family: sans-serif;
+            text-transform: uppercase;
+            background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-stroke: 2px black;
+        }
         .hed{
             background: #ccc;
             color: black;
@@ -32,7 +43,7 @@
             <div class="container clearfix hed">
             </div>
         </section>
-        <div class="col-md-12 hed">
+        <div class="header">
                 <h1>Insert Data</h1>
         </div>
         <section id="content">
@@ -48,17 +59,13 @@
                             </form>
                         </div>
                         <div class="col-md-12 p-0">
-                            <table class="table table-dark">
+                            <table class="table table-warning">
                                 <thead>
-                                    <tr class="bg-info">
+                                    <tr>
                                         <th scope="col">Id</th>
                                         <th scope="col">Name</th>
                                         <th scope="col">Email</th>
                                         <th scope="col">Phone</th>
-                                        <th scope="col">Subject</th>
-                                        <th scope="col">Message</th>
-                                        <th scope="col">Created on</th>
-                                        <th scope="col">Update on</th>
                                         <th scope="col" colspan="3">Action</th>
                                     </tr>
                                 </thead>
@@ -75,10 +82,7 @@
                                             <td><?php echo $row['name']; ?></td>
                                             <td><?php echo $row['email']; ?></td>
                                             <td><?php echo $row['phone']; ?></td>
-                                            <td><?php echo $row['subject']; ?></td>
                                             <td><?php echo $row['message']; ?></td>
-                                            <td><?php echo $row['created']; ?></td>
-                                            <td><?php echo $row['updated']; ?></td>
                                             <td>
                                                 <a href="view.php?id=<?php echo $row['id']; ?>" type="button" class="btn btn-success btn-sm">View</a>
                                             </td>
