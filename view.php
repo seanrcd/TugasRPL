@@ -8,11 +8,16 @@
     <style>
         .hed{
             background: #ccc;
-            color: blue;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-stroke: 2px black;
         }
         .hed h1{
             padding-top: 20px;
-            padding-bottom: 25px;
+            padding-bottom: 15px;
         }
         .form{
             margin-top: 50px;
@@ -21,6 +26,7 @@
         .table{
             margin-top: 50px;
         }
+
     </style>
 </head>
 <body class="stretched">
@@ -54,7 +60,7 @@
                                     <th>Name</th>
                                     <td><?php echo $row['name']; ?></td>
                                 </tr>
-                                <tr>
+                                 <tr>
                                     <th>Email</th>  
                                     <td><?php echo $row['email']; ?></td>
                                 </tr>
@@ -66,24 +72,16 @@
                                     <th>Message</th>
                                     <td><?php echo $row['message']; ?></td>
                                 </tr>
-                                <tr>
-                                    <th>Created Time & Date</th>  
-                                    <td><?php echo $row['created']; ?></td>
-                                </tr>
-                                <tr>  
-                                    <th>Updated Time & Date</th>
-                                    <td><?php echo $row['updated']; ?></td>
-                                </tr>
-                                <tr>  
-                                    <th>Back To Home</th>
-                                    <td><a href="index.php" type="button" class="btn btn-primary">Back</a></td>
-                                </tr>
-                          </tbody>
+                                </tbody>
                         </table>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section >
+    <center><a href="index.php" type="button" class="btn btn-primary">Back</a></center>
+    </section>
+       
 </body>
 </html>
