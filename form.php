@@ -9,7 +9,7 @@
 </div>
 <div class="col-md-12 col-sm-12 form-group">
     <label for="register-form-name">Phone:</label>
-    <input type="text" name="phone" value="<?php if(isset($row)) { echo $row['phone']; } ?>" class="form-control" / required>
+    <input type="number" name="phone" value="<?php if(isset($row)) { echo $row['phone']; } ?>" class="form-control" / required>
 </div>
 <div class="col-md-12 col-sm-12 form-group">
     <label for="register-form-name">Message:</label>
