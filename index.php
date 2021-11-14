@@ -101,6 +101,9 @@
                                     <?php } ?>
                               </tbody>
                             </table>
+                            <center>
+                            <a href="index.php" type="button"  class="btn btn-warning btn-sm">refresh</a>
+                                    </center>
                         </div>
                     </div>
                 </div>
@@ -115,8 +118,8 @@
                 var del = $(this).data('id');
 
                 swal({
-                    title: "Are you sure?",
-                    text: "Once deleted, you will not be able to recover this imaginary file!",
+                    title: "Apakah Kamu yakin?",
+                    text: "Setelah dihapus, Anda tidak akan dapat memulihkan file ini!",
                     icon: "warning",
                     buttons: true,
                     dangerMode: true,
@@ -129,17 +132,14 @@
                             data : {id:del},
                             success : function() {
                                 swal({
-                                    title: "Sweet!",
+                                    title: "sukses!",
                                     text: "Delete data",
                                     imageUrl: 'thumbs-up.jpg
                                 }); 
                             }
-                        });
-                        swal("Poof! Your imaginary file has been deleted!", {
-                            icon: "success",
-                        });
+                        });       
                     } else {
-                        swal("Your imaginary file is safe!");
+                        swal("Penghapusan dibatalkan!");
                     }
                 });
             });
