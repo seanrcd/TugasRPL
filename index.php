@@ -131,7 +131,7 @@
                                 swal({
                                     title: "Sweet!",
                                     text: "Delete data",
-                                    imageUrl: 'thumbs-up.jpg'
+                                    imageUrl: 'thumbs-up.jpg
                                 }); 
                             }
                         });
